@@ -1,7 +1,7 @@
 connections:
 //VCC(red) = 5V
 //GND(brown) = GND pin 
-
+#include <Arduino.h>
 #include <Servo.h>  
 
 Servo s;  // Create a servo object
