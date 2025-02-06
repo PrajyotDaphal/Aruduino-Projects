@@ -1,3 +1,7 @@
+Connections:
+//VCC = 5V
+//GND = GND pin
+
 #include "DHT.h"
 
 #define DHTPIN 8    
@@ -13,7 +17,7 @@ DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
   Serial.begin(9600);
-  Serial.println("DHTxx test!");
+  Serial.println("DHT11 test!");
 
   dht.begin();
 }
