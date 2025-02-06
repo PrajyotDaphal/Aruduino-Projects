@@ -1,7 +1,7 @@
 Connections:
 //VCC = 5V
 //GND = GND pin
-
+#include <Arduino.h>
 #include "DHT.h"
 
 #define DHTPIN 8    
