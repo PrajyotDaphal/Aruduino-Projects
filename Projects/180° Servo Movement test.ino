@@ -1,6 +1,6 @@
-connections:
-//VCC(red) = 5V
-//GND(brown) = GND pin 
+// connections:
+// VCC(red) = 5V
+// GND(brown) = GND pin 
 #include <Arduino.h>// remove this line if using Arduino IDE
 #include <Servo.h>  
 
