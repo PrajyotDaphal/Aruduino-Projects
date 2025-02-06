@@ -2,7 +2,7 @@ Connections:
 GND = GND Pin
 // Before  LED positive is connecting to Arduino connect 1k resistor between arduino and LED connection  
 
-#include <Arduino.h>
+#include <Arduino.h> // remove this line if using Arduino IDE
   
 void setup() {
   pinMode(13, OUTPUT); // Set pin 13 as an output
