@@ -1,9 +1,13 @@
+connections:
+//VCC(red) = 5V
+//GND(brown) = GND pin 
+
 #include <Servo.h>  
 
 Servo s;  // Create a servo object
 
 void setup() {
-  s.attach(9);  
+  s.attach(9);  // Set pin where you want but in digitalpin section only
 }
 
 void loop() {
