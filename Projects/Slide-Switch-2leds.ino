@@ -1,7 +1,7 @@
 // Connections:
 // LDE1 - = GND
 // LED1 + = Slide Switch 1:1 (pin no.1) 
-// Slide Switch 1:2 (pin no.2) = 220ohm resistor then connectto arduino pin no.13
+// Slide Switch 1:2 (pin no.2) = connect 220ohm resistor then connectto arduino pin no.13
 // LED2 + = Slide Switch 1:3 (pin no.3)
 // LED2 - = GND
 
