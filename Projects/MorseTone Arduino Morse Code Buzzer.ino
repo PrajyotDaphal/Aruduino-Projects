@@ -1,6 +1,6 @@
 const int buzzer = 8;
 const int dotDuration = 100;   // Dot: 100ms
-const int dashDuration = 300;  // Dash: 200ms
+const int dashDuration = 300;  // Dash: 300ms
 const int frequency = 555;     // Tone frequency
 
 String morseCode(char c) {
