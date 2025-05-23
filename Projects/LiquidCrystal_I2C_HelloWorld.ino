@@ -22,9 +22,9 @@ void setup() {
   lcd.setCursor(3, 0);
   lcd.print("Hello, world!");
   lcd.setCursor(2, 1);
-  lcd.print("Wokwi Online IoT");
+  lcd.print("Welcome In IoT");
   lcd.setCursor(5, 2);
-  lcd.print("Simulator");
+  lcd.print("Section");
   lcd.setCursor(7, 3);
   lcd.print("Enjoy!");
 }
